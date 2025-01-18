@@ -18,4 +18,13 @@ headingElement.style.textAlign = 'center';
 headingElement.innerText = "DAY 1";
 headingElement.innerHTML = '<h1>Heading on DOM</h1>';
 
+//  use of queryselector
+let heading1 = document.querySelector('h2');
+console.log(heading1);
+let heading2 = document.querySelectorAll('h2');
+console.log(heading2);
+let myUl = document.querySelector('ul');
+console.log(myUl);
+let list1 = myUl.querySelector('li');
+console.log(list1);
 
