@@ -33,3 +33,16 @@ function addOptLang(lang){
 }
 addOptLang('Java');
 addOptLang('C++');
+
+
+//  Edit
+ let secondLang = document.querySelector('li:nth-child(2)');
+ console.log(secondLang);
+//  secondLang.innerHTML = 'HTML';
+let newli = document.createElement('li');
+newli.textContent = 'django';
+secondLang.replaceWith(newli);
+
+// Remove
+let thirdLang = document.querySelector('li:nth-child(3)');
+thirdLang.remove();
